@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8037461705098452463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Catch
+  m_EditorClassIdentifier: 
+  Path: event:/Catch
+  guid: 94161f435970d0498c8cbe906a7aeb74
+  Banks:
+  - {fileID: 3040159349872323894}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-7565708085717200781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,6 +66,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 886
   Exists: 1
+--- !u!114 &-6514521075670393677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GameOver
+  m_EditorClassIdentifier: 
+  Path: event:/GameOver
+  guid: dce5e160f77fc44ca2be2d3b1167861b
+  Banks:
+  - {fileID: 3040159349872323894}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4324225591356456823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,6 +128,29 @@ MonoBehaviour:
   guid: 94161f435970d0498c8cbe906a7aeb74
   Banks:
   - {fileID: -1160405107044393405}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3131300925228570217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CorrectInput
+  m_EditorClassIdentifier: 
+  Path: event:/CorrectInput
+  guid: 4ce046f91bac09428f02ab39e053cd0f
+  Banks:
+  - {fileID: 3040159349872323894}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -165,18 +234,18 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -7103200173848798908}
-  - {fileID: -142060067450202569}
+  - {fileID: 9054696996503984154}
+  - {fileID: 3040159349872323894}
   EditorEvents:
-  - {fileID: 1938558734020277868}
-  - {fileID: -7565708085717200781}
-  - {fileID: 7684302608457877126}
-  - {fileID: 2089938214575690853}
+  - {fileID: -3131300925228570217}
+  - {fileID: -8037461705098452463}
+  - {fileID: -6514521075670393677}
+  - {fileID: 2861330761915444381}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -142060067450202569}
+  - {fileID: 3040159349872323894}
   StringsBanks:
-  - {fileID: -7103200173848798908}
+  - {fileID: 9054696996503984154}
   stringsBankWriteTime: 637875210351277595
   cacheVersion: 8
 --- !u!114 &1938558734020277868
@@ -225,6 +294,49 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 77355
+--- !u!114 &2861330761915444381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience
+  guid: ff88073d7dc3b5419ca81d2360be9401
+  Banks:
+  - {fileID: 3040159349872323894}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 77355
+--- !u!114 &3040159349872323894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Fishing-Game FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637875210351257592
+  FileSizes:
+  - Name: Desktop
+    Value: 1660896
+  Exists: 1
 --- !u!114 &3668769972188128170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,3 +426,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &9054696996503984154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Fishing-Game FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637875210351277595
+  FileSizes:
+  - Name: Desktop
+    Value: 886
+  Exists: 1

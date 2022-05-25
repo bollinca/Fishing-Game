@@ -271,8 +271,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Lab Game (Fishing) FMOD/Lab Game (Fishing) FMOD.fspro
-  sourceBankPath: ../Lab Game (Fishing) FMOD/Build
+  sourceProjectPath: ../Fishing-Game FMOD/Lab Game (Fishing) FMOD.fspro
+  sourceBankPath: ../Fishing-Game FMOD/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
