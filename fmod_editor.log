@@ -8,7 +8,7 @@
 [LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000023B242793A8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000023CC2671E08 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -19,136 +19,140 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] SystemI::createSound                     : filename = ../Fishing-Game FMOD/Build/Desktop/Master.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000023B243FE338 : node = 0000023A93BD83C0
-[LOG] SystemI::createSound                     : add node to async list : head = 0000023B23C471C8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000023B243FE338
+[LOG] SystemI::createSound                     : setdata soundi = 0000023C3541FA08 : node = 0000023C32F2B1E0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000023C355578E8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000023C3541FA08
 [LOG] SystemI::createSoundInternal             :     Create name='../Fishing-Game FMOD/Build/Desktop/Master.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8160
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000023A93BD84D0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000023C32F2B2F0
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8160
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST', format=5, channels=2, frequency=48000, lengthbytes=1534496, lengthpcm=3713083, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.403832.
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000635A87EF28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000F6193FEE58
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFFB25D60E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFFB25D60B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFFB25D61B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFFB25D6270
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023AB7760688
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFF2D0A60E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFF2D0A60B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFF2D0A61B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFF2D0A6270
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023C2D255D68
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST', format=5, channels=2, frequency=48000, lengthbytes=1534496, lengthpcm=3713083, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.403832.
 [LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Sports Fly Fishing Reel Pull Quick 03 1', format=5, channels=2, frequency=48000, lengthbytes=3904, lengthpcm=11111, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.606903.
 [LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8160
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000635A87EF28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000F6193FEE58
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFFB25D60E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFFB25D60B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFFB25D61B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFFB25D6270
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023AB7760688
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFF2D0A60E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFF2D0A60B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFF2D0A61B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFF2D0A6270
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023C2D255D68
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Sports Reel Fishing Pole Long 0 2', format=5, channels=2, frequency=48000, lengthbytes=12160, lengthpcm=30189, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.638184.
 [LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8160
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000635A87EF28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000F6193FEE58
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFFB25D60E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFFB25D60B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFFB25D61B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFFB25D6270
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023AB7760688
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFF2D0A60E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFF2D0A60B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFF2D0A61B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFF2D0A6270
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023C2D255D68
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Sports Fly Fishing Reel Pull Quick 04 1', format=5, channels=2, frequency=48000, lengthbytes=14240, lengthpcm=33079, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.323242.
 [LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8160
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5984
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000635A87EF28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000000F6193FEE58
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFFB25D60E0
-[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFFB25D60B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFFB25D61B0
-[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFFB25D6270
-[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023AB7760688
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000023B243FE338
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sports Fly Fishing Reel Pull Quick 04', format=5, channels=2, frequency=48000, lengthbytes=10080, lengthpcm=22633, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.313751.
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFF2D0A60E0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFF2D0A60B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFF2D0A61B0
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFF2D0A6270
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0000023C2D255D68
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='Sports Fly Fishing Reel Pull Quick 04', format=5, channels=2, frequency=48000, lengthbytes=10080, lengthpcm=22633, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.313751.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000023C3541FA08
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8160
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 5984
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000635A87EF28
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F6193FEE58
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFB25D60E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFB25D60B0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFB25D61B0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFB25D6270
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000023AB7760688
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF2D0A60E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF2D0A60B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF2D0A61B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF2D0A6270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000023C2D255D68
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sports Fly Fishing Reel Pull Quick 03', format=5, channels=2, frequency=48000, lengthbytes=17440, lengthpcm=45824, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.571869.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1652736
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8160
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1594944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 5984
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000635A87EF28
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000F6193FEE58
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFB25D60E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFB25D60B0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFB25D61B0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFB25D6270
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000023AB7760688
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF2D0A60E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF2D0A60B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF2D0A61B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF2D0A6270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000023C2D255D68
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Gore, Bone, Finger, Snap 03 SND22233', format=5, channels=2, frequency=48000, lengthbytes=1408, lengthpcm=2707, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973086.
-[LOG] SoundI::release                          : AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023B2447EED8)
-[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023B244F0948)
-[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023B2447ED28)
-[LOG] SoundI::release                          : AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023B243FE338)
-[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023B1DA97C88)
-[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023B243FEBA8)
-[LOG] SoundI::release                          :  (0000023B24510158)
-[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 04 1 (0000023B244EF428)
-[LOG] SoundI::release                          :  (0000023B24510888)
-[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 04 (0000023B244EF908)
-[LOG] SoundI::release                          :  (0000023B2450FE78)
-[LOG] SoundI::release                          :     Sports Reel Fishing Pole Long 0 2 (0000023B244F0AE8)
-[LOG] SoundI::release                          :  (0000023B245102C8)
-[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 03 (0000023B244EFAA8)
-[LOG] SoundI::release                          :  (0000023B2450FA28)
-[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 03 1 (0000023B244F1168)
-[LOG] SoundI::release                          :  (0000023B24510B68)
-[LOG] SoundI::release                          :     Gore, Bone, Finger, Snap 03 SND22233 (0000023B244EFC48)
+[LOG] SoundI::release                          : AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023CBD342098)
+[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023CBCA04C38)
+[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023CBD342248)
+[LOG] SoundI::release                          : AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023C3541FA08)
+[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023CBD738068)
+[LOG] SoundI::release                          :     AMB WATERFLOW Lake Shore Waves Detailed Windy 1m Close Loop 01 ST (0000023C3541FD68)
+[LOG] SoundI::release                          :  (0000023C57842058)
+[LOG] SoundI::release                          :     Gore, Bone, Finger, Snap 03 SND22233 (0000023CBD305268)
+[LOG] SoundI::release                          :  (0000023C3681D648)
+[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 04 1 (0000023CBD31E5D8)
+[LOG] SoundI::release                          :  (0000023C3681DC08)
+[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 04 (0000023CBD31EAB8)
+[LOG] SoundI::release                          :  (0000023C3681D4D8)
+[LOG] SoundI::release                          :     Sports Reel Fishing Pole Long 0 2 (0000023CBD31E438)
+[LOG] SoundI::release                          :  (0000023C57841EE8)
+[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 03 (0000023CBD3055A8)
+[LOG] SoundI::release                          :  (0000023C3681DA98)
+[LOG] SoundI::release                          :     Sports Fly Fishing Reel Pull Quick 03 1 (0000023CBD31EDF8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

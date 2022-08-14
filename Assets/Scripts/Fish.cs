@@ -26,12 +26,11 @@ public class Fish : MonoBehaviour
         //fish is considered "on hook" when touching bobber (on trigger)
         private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if fish touches hook, fish disappears.
+        //if fish touches hook, start timer.
         if (collision.gameObject.CompareTag("Hook"))
         {
             gameplayManager.onHook = true;
             StartCoroutine(gameplayManager.ArrowTimer());
-            //will: if fish escaped, fish swims away.
         }
     }
 }

@@ -149,8 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/CorrectInput
   guid: 4ce046f91bac09428f02ab39e053cd0f
-  Banks:
-  - {fileID: 3040159349872323894}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -237,7 +236,6 @@ MonoBehaviour:
   - {fileID: 9054696996503984154}
   - {fileID: 3040159349872323894}
   EditorEvents:
-  - {fileID: -3131300925228570217}
   - {fileID: -8037461705098452463}
   - {fileID: -6514521075670393677}
   - {fileID: 2861330761915444381}
@@ -246,7 +244,7 @@ MonoBehaviour:
   - {fileID: 3040159349872323894}
   StringsBanks:
   - {fileID: 9054696996503984154}
-  stringsBankWriteTime: 637875210351277595
+  stringsBankWriteTime: 637896280619376943
   cacheVersion: 8
 --- !u!114 &1938558734020277868
 MonoBehaviour:
@@ -332,10 +330,10 @@ MonoBehaviour:
   Path: ../Fishing-Game FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637875210351257592
+  lastModified: 637896280619366946
   FileSizes:
   - Name: Desktop
-    Value: 1660896
+    Value: 1600928
   Exists: 1
 --- !u!114 &3668769972188128170
 MonoBehaviour:
@@ -441,8 +439,8 @@ MonoBehaviour:
   Path: ../Fishing-Game FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637875210351277595
+  lastModified: 637896280619376943
   FileSizes:
   - Name: Desktop
-    Value: 886
+    Value: 832
   Exists: 1
